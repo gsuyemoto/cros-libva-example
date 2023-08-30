@@ -1,0 +1,8 @@
+[package]
+name = "cros-libva-test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+crc32fast = "1.3.2"
+libva = {path = "../cros-libva/", package = "cros-libva", version = "0.0.4"}
